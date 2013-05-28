@@ -3,7 +3,7 @@
 <head>
     <link href="flatstrap-master/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
     <link href="select2-3.4.0/select2.css" rel="stylesheet" media="screen"/>
-    <link href="setect2-bootstrap.css" rel="stylesheet" media="screen"/>
+    <link href="../select2-flatstrap-css/select2-bootstrap.css" rel="stylesheet" media="screen"/>
 
     <style type="text/css">
 
@@ -55,13 +55,13 @@
             'ajax': {
                 url: "ajax.json",
                 dataType: 'json',
-                data: function (term, page) {
+                data: function (term) {
                     return {
                         q: term,
                         page_limit: 10
                     };
                 },
-                results: function (data, page) {
+                results: function (data) {
                     return {results: data};
                 }
             },
@@ -72,7 +72,7 @@
                 });
                 callback(data);
             },
-            createSearchChoice: function (term, data) {
+            createSearchChoice: function (term) {
                 return {id: term, text: term};
             },
             width: 'off',
