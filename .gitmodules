@@ -1,0 +1,3 @@
+[submodule "select2-flatstrap-css"]
+	path = select2-flatstrap-css
+	url = git://github.com/kirillsud/select2-flatstrap-css.git
