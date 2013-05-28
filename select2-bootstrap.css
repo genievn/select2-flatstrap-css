@@ -84,7 +84,7 @@
 }
 
 .select2-search-choice-close:after {
-    content: "×";
+    content: "\00D7";
 }
 
 .select2-container .select2-choices .select2-search-field .select2-input {
