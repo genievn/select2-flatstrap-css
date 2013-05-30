@@ -1,4 +1,4 @@
-This is a fork of https://github.com/t0m/select2-bootstrap-css/
+This project forked from https://github.com/t0m/select2-bootstrap-css/
 
 Current style is suitable for https://github.com/littlesparkvt/flatstrap/
 
