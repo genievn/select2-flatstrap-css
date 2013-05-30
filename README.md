@@ -1,6 +1,6 @@
-This is a bare bones stylesheet for making select2 fit in with bootstrap a bit better. 
-If I have some down time I'll make this into a less file so any custom settings will
-carry over but for now it's targeted at the default bootstrap style.
+This is a fork of https://github.com/t0m/select2-bootstrap-css/
+
+Current style is suitable for https://github.com/littlesparkvt/flatstrap/
 
 ![preview image](http://kirillsud.github.com/select2-flatstrap-css/demo/select2-flatstrap-examples.png)
 
